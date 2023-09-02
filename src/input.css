@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* custom classes */
+
+header{
+
+}
+
+.card{
+    @apply flex flex-col justify-center items-center m-6 
+}
+
+.hover-links{
+    @apply hover:border-b-2 hover:border-black
+}
+
+.shop-link{
+    @apply text-blue-link underline font-medium
+}
+
+.hover-nav{
+    @apply hover:border-b-stone-500 hover:border-b-[1px]
+}
